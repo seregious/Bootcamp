@@ -26,6 +26,14 @@
 		A3483E9A27B4688400C69265 /* ScrollView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3483E9927B4688400C69265 /* ScrollView_.swift */; };
 		A3483E9C27B46CD900C69265 /* LazyGrids_GridsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3483E9B27B46CD900C69265 /* LazyGrids_GridsItems.swift */; };
 		A3DBEE1127B5A9D0002A8422 /* SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1027B5A9D0002A8422 /* SafeArea.swift */; };
+		A3DBEE1327B5AF20002A8422 /* Button_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1227B5AF20002A8422 /* Button_.swift */; };
+		A3DBEE1527B67940002A8422 /* State_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1427B67940002A8422 /* State_.swift */; };
+		A3DBEE1727B6B399002A8422 /* ExtractFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1627B6B399002A8422 /* ExtractFunctions.swift */; };
+		A3DBEE1927B7F164002A8422 /* ExtractSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1827B7F164002A8422 /* ExtractSubView.swift */; };
+		A3DBEE1B27B7F516002A8422 /* Binding_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1A27B7F516002A8422 /* Binding_.swift */; };
+		A3DBEE1D27B7F8BF002A8422 /* ConditionalStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1C27B7F8BF002A8422 /* ConditionalStatement.swift */; };
+		A3DBEE1F27B7FEC2002A8422 /* TernaryOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1E27B7FEC2002A8422 /* TernaryOperator.swift */; };
+		A3DBEE2127B83357002A8422 /* Animation_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE2027B83357002A8422 /* Animation_.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +57,14 @@
 		A3483E9927B4688400C69265 /* ScrollView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_.swift; sourceTree = "<group>"; };
 		A3483E9B27B46CD900C69265 /* LazyGrids_GridsItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrids_GridsItems.swift; sourceTree = "<group>"; };
 		A3DBEE1027B5A9D0002A8422 /* SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeArea.swift; sourceTree = "<group>"; };
+		A3DBEE1227B5AF20002A8422 /* Button_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_.swift; sourceTree = "<group>"; };
+		A3DBEE1427B67940002A8422 /* State_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_.swift; sourceTree = "<group>"; };
+		A3DBEE1627B6B399002A8422 /* ExtractFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractFunctions.swift; sourceTree = "<group>"; };
+		A3DBEE1827B7F164002A8422 /* ExtractSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubView.swift; sourceTree = "<group>"; };
+		A3DBEE1A27B7F516002A8422 /* Binding_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding_.swift; sourceTree = "<group>"; };
+		A3DBEE1C27B7F8BF002A8422 /* ConditionalStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalStatement.swift; sourceTree = "<group>"; };
+		A3DBEE1E27B7FEC2002A8422 /* TernaryOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperator.swift; sourceTree = "<group>"; };
+		A3DBEE2027B83357002A8422 /* Animation_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +114,14 @@
 				A3483E9927B4688400C69265 /* ScrollView_.swift */,
 				A3483E9B27B46CD900C69265 /* LazyGrids_GridsItems.swift */,
 				A3DBEE1027B5A9D0002A8422 /* SafeArea.swift */,
+				A3DBEE1227B5AF20002A8422 /* Button_.swift */,
+				A3DBEE1427B67940002A8422 /* State_.swift */,
+				A3DBEE1627B6B399002A8422 /* ExtractFunctions.swift */,
+				A3DBEE1827B7F164002A8422 /* ExtractSubView.swift */,
+				A3DBEE1A27B7F516002A8422 /* Binding_.swift */,
+				A3DBEE1C27B7F8BF002A8422 /* ConditionalStatement.swift */,
+				A3DBEE1E27B7FEC2002A8422 /* TernaryOperator.swift */,
+				A3DBEE2027B83357002A8422 /* Animation_.swift */,
 				A3483E7727B3CC8900C69265 /* Assets.xcassets */,
 				A3483E7927B3CC8900C69265 /* Preview Content */,
 			);
@@ -183,17 +207,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3483E8427B3F3F300C69265 /* Colors.swift in Sources */,
+				A3DBEE1F27B7FEC2002A8422 /* TernaryOperator.swift in Sources */,
 				A3483E9627B45F4800C69265 /* InitAndEnum.swift in Sources */,
 				A3483E8C27B4138C00C69265 /* Frame.swift in Sources */,
 				A3483E7627B3CC8700C69265 /* Text_.swift in Sources */,
 				A3483E9027B427A200C69265 /* H_V_ZStack.swift in Sources */,
+				A3DBEE2127B83357002A8422 /* Animation_.swift in Sources */,
 				A3483E9227B4354400C69265 /* PaddingAndSpacing.swift in Sources */,
+				A3DBEE1927B7F164002A8422 /* ExtractSubView.swift in Sources */,
 				A3483E9427B4597000C69265 /* Spacers.swift in Sources */,
 				A3DBEE1127B5A9D0002A8422 /* SafeArea.swift in Sources */,
+				A3DBEE1B27B7F516002A8422 /* Binding_.swift in Sources */,
 				A3483E8627B3FB2700C69265 /* Gradients.swift in Sources */,
+				A3DBEE1327B5AF20002A8422 /* Button_.swift in Sources */,
+				A3DBEE1527B67940002A8422 /* State_.swift in Sources */,
+				A3DBEE1D27B7F8BF002A8422 /* ConditionalStatement.swift in Sources */,
 				A3483E9C27B46CD900C69265 /* LazyGrids_GridsItems.swift in Sources */,
 				A3483E8827B3FF3700C69265 /* Icons_.swift in Sources */,
 				A3483E7427B3CC8700C69265 /* BootcampApp.swift in Sources */,
+				A3DBEE1727B6B399002A8422 /* ExtractFunctions.swift in Sources */,
 				A3483E8A27B40FDB00C69265 /* Image_.swift in Sources */,
 				A3483E8E27B4215F00C69265 /* BackgroundAndOverlay.swift in Sources */,
 				A3483E9827B4653100C69265 /* ForEach_.swift in Sources */,

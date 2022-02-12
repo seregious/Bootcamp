@@ -9,7 +9,20 @@ import SwiftUI
 
 struct SafeArea: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+            ScrollView {
+            VStack {
+                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                    .font(.largeTitle)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .trailing)
+                Spacer()
+            }
+            
+    }
+            .background(
+                Color.blue
+                    .ignoresSafeArea()
+            )
     }
 }
 
