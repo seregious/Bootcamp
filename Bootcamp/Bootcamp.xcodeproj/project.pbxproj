@@ -34,6 +34,8 @@
 		A3DBEE1D27B7F8BF002A8422 /* ConditionalStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1C27B7F8BF002A8422 /* ConditionalStatement.swift */; };
 		A3DBEE1F27B7FEC2002A8422 /* TernaryOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1E27B7FEC2002A8422 /* TernaryOperator.swift */; };
 		A3DBEE2127B83357002A8422 /* Animation_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE2027B83357002A8422 /* Animation_.swift */; };
+		A3DBEE2327B90458002A8422 /* AnimationTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE2227B90458002A8422 /* AnimationTiming.swift */; };
+		A3DBEE2527B907F2002A8422 /* Transition_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE2427B907F2002A8422 /* Transition_.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +67,8 @@
 		A3DBEE1C27B7F8BF002A8422 /* ConditionalStatement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalStatement.swift; sourceTree = "<group>"; };
 		A3DBEE1E27B7FEC2002A8422 /* TernaryOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperator.swift; sourceTree = "<group>"; };
 		A3DBEE2027B83357002A8422 /* Animation_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_.swift; sourceTree = "<group>"; };
+		A3DBEE2227B90458002A8422 /* AnimationTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTiming.swift; sourceTree = "<group>"; };
+		A3DBEE2427B907F2002A8422 /* Transition_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition_.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,9 @@
 		A3483E6727B3CC8700C69265 = {
 			isa = PBXGroup;
 			children = (
-				A3483E7227B3CC8700C69265 /* Bootcamp */,
+				A3483E7227B3CC8700C69265 /* Bootcamp part 1 */,
+				A3DBEE2627B90805002A8422 /* Bootcamp part 2 */,
+				A3DBEE2727B9085C002A8422 /* Bootcamp part 3 */,
 				A3483E7127B3CC8700C69265 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,7 +100,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A3483E7227B3CC8700C69265 /* Bootcamp */ = {
+		A3483E7227B3CC8700C69265 /* Bootcamp part 1 */ = {
 			isa = PBXGroup;
 			children = (
 				A3483E7327B3CC8700C69265 /* BootcampApp.swift */,
@@ -117,15 +123,10 @@
 				A3DBEE1227B5AF20002A8422 /* Button_.swift */,
 				A3DBEE1427B67940002A8422 /* State_.swift */,
 				A3DBEE1627B6B399002A8422 /* ExtractFunctions.swift */,
-				A3DBEE1827B7F164002A8422 /* ExtractSubView.swift */,
-				A3DBEE1A27B7F516002A8422 /* Binding_.swift */,
-				A3DBEE1C27B7F8BF002A8422 /* ConditionalStatement.swift */,
-				A3DBEE1E27B7FEC2002A8422 /* TernaryOperator.swift */,
-				A3DBEE2027B83357002A8422 /* Animation_.swift */,
 				A3483E7727B3CC8900C69265 /* Assets.xcassets */,
 				A3483E7927B3CC8900C69265 /* Preview Content */,
 			);
-			path = Bootcamp;
+			path = "Bootcamp part 1";
 			sourceTree = "<group>";
 		};
 		A3483E7927B3CC8900C69265 /* Preview Content */ = {
@@ -134,6 +135,27 @@
 				A3483E7A27B3CC8900C69265 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3DBEE2627B90805002A8422 /* Bootcamp part 2 */ = {
+			isa = PBXGroup;
+			children = (
+				A3DBEE1827B7F164002A8422 /* ExtractSubView.swift */,
+				A3DBEE1A27B7F516002A8422 /* Binding_.swift */,
+				A3DBEE1C27B7F8BF002A8422 /* ConditionalStatement.swift */,
+				A3DBEE1E27B7FEC2002A8422 /* TernaryOperator.swift */,
+				A3DBEE2027B83357002A8422 /* Animation_.swift */,
+				A3DBEE2227B90458002A8422 /* AnimationTiming.swift */,
+				A3DBEE2427B907F2002A8422 /* Transition_.swift */,
+			);
+			path = "Bootcamp part 2";
+			sourceTree = "<group>";
+		};
+		A3DBEE2727B9085C002A8422 /* Bootcamp part 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Bootcamp part 3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +230,8 @@
 			files = (
 				A3483E8427B3F3F300C69265 /* Colors.swift in Sources */,
 				A3DBEE1F27B7FEC2002A8422 /* TernaryOperator.swift in Sources */,
+				A3DBEE2327B90458002A8422 /* AnimationTiming.swift in Sources */,
+				A3DBEE2527B907F2002A8422 /* Transition_.swift in Sources */,
 				A3483E9627B45F4800C69265 /* InitAndEnum.swift in Sources */,
 				A3483E8C27B4138C00C69265 /* Frame.swift in Sources */,
 				A3483E7627B3CC8700C69265 /* Text_.swift in Sources */,
