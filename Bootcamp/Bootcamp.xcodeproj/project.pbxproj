@@ -25,6 +25,9 @@
 		A3483E9827B4653100C69265 /* ForEach_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3483E9727B4653100C69265 /* ForEach_.swift */; };
 		A3483E9A27B4688400C69265 /* ScrollView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3483E9927B4688400C69265 /* ScrollView_.swift */; };
 		A3483E9C27B46CD900C69265 /* LazyGrids_GridsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3483E9B27B46CD900C69265 /* LazyGrids_GridsItems.swift */; };
+		A38782D327BA966E00040F22 /* ActionSheet_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782D227BA966E00040F22 /* ActionSheet_.swift */; };
+		A38782D527BAC05600040F22 /* ContextMenu_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782D427BAC05600040F22 /* ContextMenu_.swift */; };
+		A38782D727BAC39400040F22 /* TextField_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782D627BAC39400040F22 /* TextField_.swift */; };
 		A3DBEE1127B5A9D0002A8422 /* SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1027B5A9D0002A8422 /* SafeArea.swift */; };
 		A3DBEE1327B5AF20002A8422 /* Button_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1227B5AF20002A8422 /* Button_.swift */; };
 		A3DBEE1527B67940002A8422 /* State_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1427B67940002A8422 /* State_.swift */; };
@@ -63,6 +66,9 @@
 		A3483E9727B4653100C69265 /* ForEach_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_.swift; sourceTree = "<group>"; };
 		A3483E9927B4688400C69265 /* ScrollView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_.swift; sourceTree = "<group>"; };
 		A3483E9B27B46CD900C69265 /* LazyGrids_GridsItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrids_GridsItems.swift; sourceTree = "<group>"; };
+		A38782D227BA966E00040F22 /* ActionSheet_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_.swift; sourceTree = "<group>"; };
+		A38782D427BAC05600040F22 /* ContextMenu_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu_.swift; sourceTree = "<group>"; };
+		A38782D627BAC39400040F22 /* TextField_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_.swift; sourceTree = "<group>"; };
 		A3DBEE1027B5A9D0002A8422 /* SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeArea.swift; sourceTree = "<group>"; };
 		A3DBEE1227B5AF20002A8422 /* Button_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_.swift; sourceTree = "<group>"; };
 		A3DBEE1427B67940002A8422 /* State_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_.swift; sourceTree = "<group>"; };
@@ -162,6 +168,9 @@
 				A3DBEE2C27B94087002A8422 /* NavigationView_.swift */,
 				A3DBEE2E27B98922002A8422 /* List_.swift */,
 				A3DBEE3027B99744002A8422 /* Alert_.swift */,
+				A38782D227BA966E00040F22 /* ActionSheet_.swift */,
+				A38782D427BAC05600040F22 /* ContextMenu_.swift */,
+				A38782D627BAC39400040F22 /* TextField_.swift */,
 			);
 			path = "Bootcamp part 2";
 			sourceTree = "<group>";
@@ -254,12 +263,15 @@
 				A3483E7627B3CC8700C69265 /* Text_.swift in Sources */,
 				A3483E9027B427A200C69265 /* H_V_ZStack.swift in Sources */,
 				A3DBEE2127B83357002A8422 /* Animation_.swift in Sources */,
+				A38782D727BAC39400040F22 /* TextField_.swift in Sources */,
+				A38782D327BA966E00040F22 /* ActionSheet_.swift in Sources */,
 				A3483E9227B4354400C69265 /* PaddingAndSpacing.swift in Sources */,
 				A3DBEE1927B7F164002A8422 /* ExtractSubView.swift in Sources */,
 				A3DBEE2B27B93846002A8422 /* PopOverMethods.swift in Sources */,
 				A3483E9427B4597000C69265 /* Spacers.swift in Sources */,
 				A3DBEE1127B5A9D0002A8422 /* SafeArea.swift in Sources */,
 				A3DBEE1B27B7F516002A8422 /* Binding_.swift in Sources */,
+				A38782D527BAC05600040F22 /* ContextMenu_.swift in Sources */,
 				A3483E8627B3FB2700C69265 /* Gradients.swift in Sources */,
 				A3DBEE1327B5AF20002A8422 /* Button_.swift in Sources */,
 				A3DBEE1527B67940002A8422 /* State_.swift in Sources */,
