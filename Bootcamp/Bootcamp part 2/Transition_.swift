@@ -24,7 +24,11 @@ struct Transition_: View {
             if showView {
                 RoundedRectangle(cornerRadius: 20)
                     .frame(height: UIScreen.main.bounds.height * 0.5)
-                    .transition(.slide)
+                    .transition(.asymmetric(
+                        insertion: .slide,
+                        removal: .move(edge: .leading)
+                    ))
+                    .animation(.easeInOut)
             }
             
         }
