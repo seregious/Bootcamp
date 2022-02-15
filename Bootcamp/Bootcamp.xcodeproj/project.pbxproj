@@ -28,6 +28,9 @@
 		A38782D327BA966E00040F22 /* ActionSheet_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782D227BA966E00040F22 /* ActionSheet_.swift */; };
 		A38782D527BAC05600040F22 /* ContextMenu_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782D427BAC05600040F22 /* ContextMenu_.swift */; };
 		A38782D727BAC39400040F22 /* TextField_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782D627BAC39400040F22 /* TextField_.swift */; };
+		A38782D927BBB49A00040F22 /* TextEditor_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782D827BBB49A00040F22 /* TextEditor_.swift */; };
+		A38782DB27BBB8BF00040F22 /* Toogle_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782DA27BBB8BF00040F22 /* Toogle_.swift */; };
+		A38782DD27BBBBD000040F22 /* Picker_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782DC27BBBBD000040F22 /* Picker_.swift */; };
 		A3DBEE1127B5A9D0002A8422 /* SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1027B5A9D0002A8422 /* SafeArea.swift */; };
 		A3DBEE1327B5AF20002A8422 /* Button_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1227B5AF20002A8422 /* Button_.swift */; };
 		A3DBEE1527B67940002A8422 /* State_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1427B67940002A8422 /* State_.swift */; };
@@ -69,6 +72,9 @@
 		A38782D227BA966E00040F22 /* ActionSheet_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_.swift; sourceTree = "<group>"; };
 		A38782D427BAC05600040F22 /* ContextMenu_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu_.swift; sourceTree = "<group>"; };
 		A38782D627BAC39400040F22 /* TextField_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_.swift; sourceTree = "<group>"; };
+		A38782D827BBB49A00040F22 /* TextEditor_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_.swift; sourceTree = "<group>"; };
+		A38782DA27BBB8BF00040F22 /* Toogle_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toogle_.swift; sourceTree = "<group>"; };
+		A38782DC27BBBBD000040F22 /* Picker_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_.swift; sourceTree = "<group>"; };
 		A3DBEE1027B5A9D0002A8422 /* SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeArea.swift; sourceTree = "<group>"; };
 		A3DBEE1227B5AF20002A8422 /* Button_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_.swift; sourceTree = "<group>"; };
 		A3DBEE1427B67940002A8422 /* State_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_.swift; sourceTree = "<group>"; };
@@ -101,9 +107,9 @@
 		A3483E6727B3CC8700C69265 = {
 			isa = PBXGroup;
 			children = (
-				A3483E7227B3CC8700C69265 /* Bootcamp part 1 */,
-				A3DBEE2627B90805002A8422 /* Bootcamp part 2 */,
-				A3DBEE2727B9085C002A8422 /* Bootcamp part 3 */,
+				A3483E7227B3CC8700C69265 /* Bootcamp beginner 1-20 */,
+				A3DBEE2627B90805002A8422 /* Bootcamp beginner 21-40 */,
+				A3DBEE2727B9085C002A8422 /* Bootcamp beginner 41 - 62 */,
 				A3483E7127B3CC8700C69265 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,7 +122,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A3483E7227B3CC8700C69265 /* Bootcamp part 1 */ = {
+		A3483E7227B3CC8700C69265 /* Bootcamp beginner 1-20 */ = {
 			isa = PBXGroup;
 			children = (
 				A3483E7327B3CC8700C69265 /* BootcampApp.swift */,
@@ -142,7 +148,7 @@
 				A3483E7727B3CC8900C69265 /* Assets.xcassets */,
 				A3483E7927B3CC8900C69265 /* Preview Content */,
 			);
-			path = "Bootcamp part 1";
+			path = "Bootcamp beginner 1-20";
 			sourceTree = "<group>";
 		};
 		A3483E7927B3CC8900C69265 /* Preview Content */ = {
@@ -153,7 +159,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A3DBEE2627B90805002A8422 /* Bootcamp part 2 */ = {
+		A3DBEE2627B90805002A8422 /* Bootcamp beginner 21-40 */ = {
 			isa = PBXGroup;
 			children = (
 				A3DBEE1827B7F164002A8422 /* ExtractSubView.swift */,
@@ -171,15 +177,18 @@
 				A38782D227BA966E00040F22 /* ActionSheet_.swift */,
 				A38782D427BAC05600040F22 /* ContextMenu_.swift */,
 				A38782D627BAC39400040F22 /* TextField_.swift */,
+				A38782D827BBB49A00040F22 /* TextEditor_.swift */,
+				A38782DA27BBB8BF00040F22 /* Toogle_.swift */,
+				A38782DC27BBBBD000040F22 /* Picker_.swift */,
 			);
-			path = "Bootcamp part 2";
+			path = "Bootcamp beginner 21-40";
 			sourceTree = "<group>";
 		};
-		A3DBEE2727B9085C002A8422 /* Bootcamp part 3 */ = {
+		A3DBEE2727B9085C002A8422 /* Bootcamp beginner 41 - 62 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "Bootcamp part 3";
+			path = "Bootcamp beginner 41 - 62";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +265,7 @@
 				A3DBEE2F27B98922002A8422 /* List_.swift in Sources */,
 				A3DBEE1F27B7FEC2002A8422 /* TernaryOperator.swift in Sources */,
 				A3DBEE2D27B94087002A8422 /* NavigationView_.swift in Sources */,
+				A38782DB27BBB8BF00040F22 /* Toogle_.swift in Sources */,
 				A3DBEE2327B90458002A8422 /* AnimationTiming.swift in Sources */,
 				A3DBEE2527B907F2002A8422 /* Transition_.swift in Sources */,
 				A3483E9627B45F4800C69265 /* InitAndEnum.swift in Sources */,
@@ -266,11 +276,13 @@
 				A38782D727BAC39400040F22 /* TextField_.swift in Sources */,
 				A38782D327BA966E00040F22 /* ActionSheet_.swift in Sources */,
 				A3483E9227B4354400C69265 /* PaddingAndSpacing.swift in Sources */,
+				A38782DD27BBBBD000040F22 /* Picker_.swift in Sources */,
 				A3DBEE1927B7F164002A8422 /* ExtractSubView.swift in Sources */,
 				A3DBEE2B27B93846002A8422 /* PopOverMethods.swift in Sources */,
 				A3483E9427B4597000C69265 /* Spacers.swift in Sources */,
 				A3DBEE1127B5A9D0002A8422 /* SafeArea.swift in Sources */,
 				A3DBEE1B27B7F516002A8422 /* Binding_.swift in Sources */,
+				A38782D927BBB49A00040F22 /* TextEditor_.swift in Sources */,
 				A38782D527BAC05600040F22 /* ContextMenu_.swift in Sources */,
 				A3483E8627B3FB2700C69265 /* Gradients.swift in Sources */,
 				A3DBEE1327B5AF20002A8422 /* Button_.swift in Sources */,
