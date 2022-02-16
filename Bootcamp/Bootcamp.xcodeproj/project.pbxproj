@@ -37,6 +37,12 @@
 		A38782DB27BBB8BF00040F22 /* Toogle_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782DA27BBB8BF00040F22 /* Toogle_.swift */; };
 		A38782DD27BBBBD000040F22 /* Picker_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782DC27BBBBD000040F22 /* Picker_.swift */; };
 		A3D211D927BBF92E00AA01A9 /* DarkMode_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211D827BBF92E00AA01A9 /* DarkMode_.swift */; };
+		A3D211DB27BBFE6D00AA01A9 /* Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211DA27BBFE6D00AA01A9 /* Documentation.swift */; };
+		A3D211DD27BCFE6F00AA01A9 /* OnAppearDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211DC27BCFE6F00AA01A9 /* OnAppearDisappear.swift */; };
+		A3D211DF27BD02BD00AA01A9 /* IfLetGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211DE27BD02BD00AA01A9 /* IfLetGuard.swift */; };
+		A3D211E127BD0B3400AA01A9 /* OnTapGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211E027BD0B3400AA01A9 /* OnTapGesture_.swift */; };
+		A3D211E327BD11F000AA01A9 /* CustomDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211E227BD11F000AA01A9 /* CustomDataTypes.swift */; };
+		A3D211E527BD178500AA01A9 /* StateAndObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211E427BD178500AA01A9 /* StateAndObservedObject.swift */; };
 		A3DBEE1127B5A9D0002A8422 /* SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1027B5A9D0002A8422 /* SafeArea.swift */; };
 		A3DBEE1327B5AF20002A8422 /* Button_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1227B5AF20002A8422 /* Button_.swift */; };
 		A3DBEE1527B67940002A8422 /* State_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1427B67940002A8422 /* State_.swift */; };
@@ -87,6 +93,12 @@
 		A38782DA27BBB8BF00040F22 /* Toogle_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toogle_.swift; sourceTree = "<group>"; };
 		A38782DC27BBBBD000040F22 /* Picker_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_.swift; sourceTree = "<group>"; };
 		A3D211D827BBF92E00AA01A9 /* DarkMode_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMode_.swift; sourceTree = "<group>"; };
+		A3D211DA27BBFE6D00AA01A9 /* Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
+		A3D211DC27BCFE6F00AA01A9 /* OnAppearDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearDisappear.swift; sourceTree = "<group>"; };
+		A3D211DE27BD02BD00AA01A9 /* IfLetGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuard.swift; sourceTree = "<group>"; };
+		A3D211E027BD0B3400AA01A9 /* OnTapGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTapGesture_.swift; sourceTree = "<group>"; };
+		A3D211E227BD11F000AA01A9 /* CustomDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataTypes.swift; sourceTree = "<group>"; };
+		A3D211E427BD178500AA01A9 /* StateAndObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndObservedObject.swift; sourceTree = "<group>"; };
 		A3DBEE1027B5A9D0002A8422 /* SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeArea.swift; sourceTree = "<group>"; };
 		A3DBEE1227B5AF20002A8422 /* Button_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_.swift; sourceTree = "<group>"; };
 		A3DBEE1427B67940002A8422 /* State_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_.swift; sourceTree = "<group>"; };
@@ -161,7 +173,6 @@
 				A3DBEE1227B5AF20002A8422 /* Button_.swift */,
 				A3DBEE1427B67940002A8422 /* State_.swift */,
 				A3DBEE1627B6B399002A8422 /* ExtractFunctions.swift */,
-				A3483E7727B3CC8900C69265 /* Assets.xcassets */,
 				A3483E7927B3CC8900C69265 /* Preview Content */,
 			);
 			path = "Beginner 1-20";
@@ -170,6 +181,7 @@
 		A3483E7927B3CC8900C69265 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				A3483E7727B3CC8900C69265 /* Assets.xcassets */,
 				A3483E7A27B3CC8900C69265 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -237,6 +249,12 @@
 				A36CAC1027BBE771005C2877 /* Slider_.swift */,
 				A36CAC1227BBF11C005C2877 /* TabView_.swift */,
 				A3D211D827BBF92E00AA01A9 /* DarkMode_.swift */,
+				A3D211DA27BBFE6D00AA01A9 /* Documentation.swift */,
+				A3D211DC27BCFE6F00AA01A9 /* OnAppearDisappear.swift */,
+				A3D211DE27BD02BD00AA01A9 /* IfLetGuard.swift */,
+				A3D211E027BD0B3400AA01A9 /* OnTapGesture_.swift */,
+				A3D211E227BD11F000AA01A9 /* CustomDataTypes.swift */,
+				A3D211E427BD178500AA01A9 /* StateAndObservedObject.swift */,
 			);
 			path = "Beginner 41 - 62";
 			sourceTree = "<group>";
@@ -313,6 +331,7 @@
 			files = (
 				A3483E8427B3F3F300C69265 /* Colors.swift in Sources */,
 				A3DBEE2F27B98922002A8422 /* List_.swift in Sources */,
+				A3D211DB27BBFE6D00AA01A9 /* Documentation.swift in Sources */,
 				A3DBEE1F27B7FEC2002A8422 /* TernaryOperator.swift in Sources */,
 				A3DBEE2D27B94087002A8422 /* NavigationView_.swift in Sources */,
 				A38782DB27BBB8BF00040F22 /* Toogle_.swift in Sources */,
@@ -324,10 +343,13 @@
 				A3483E9027B427A200C69265 /* H_V_ZStack.swift in Sources */,
 				A3DBEE2127B83357002A8422 /* Animation_.swift in Sources */,
 				A38782D727BAC39400040F22 /* TextField_.swift in Sources */,
+				A3D211E127BD0B3400AA01A9 /* OnTapGesture_.swift in Sources */,
 				A38782D327BA966E00040F22 /* ActionSheet_.swift in Sources */,
 				A3483E9227B4354400C69265 /* PaddingAndSpacing.swift in Sources */,
+				A3D211DF27BD02BD00AA01A9 /* IfLetGuard.swift in Sources */,
 				A38782DD27BBBBD000040F22 /* Picker_.swift in Sources */,
 				A3DBEE1927B7F164002A8422 /* ExtractSubView.swift in Sources */,
+				A3D211E527BD178500AA01A9 /* StateAndObservedObject.swift in Sources */,
 				A3DBEE2B27B93846002A8422 /* PopOverMethods.swift in Sources */,
 				A3483E9427B4597000C69265 /* Spacers.swift in Sources */,
 				A3DBEE1127B5A9D0002A8422 /* SafeArea.swift in Sources */,
@@ -339,6 +361,7 @@
 				A3DBEE1527B67940002A8422 /* State_.swift in Sources */,
 				A3DBEE1D27B7F8BF002A8422 /* ConditionalStatement.swift in Sources */,
 				A3483E9C27B46CD900C69265 /* LazyGrids_GridsItems.swift in Sources */,
+				A3D211E327BD11F000AA01A9 /* CustomDataTypes.swift in Sources */,
 				A3DBEE2927B93309002A8422 /* Sheets.swift in Sources */,
 				A3483E8827B3FF3700C69265 /* Icons_.swift in Sources */,
 				A3483E7427B3CC8700C69265 /* BootcampApp.swift in Sources */,
@@ -353,6 +376,7 @@
 				A3483E9827B4653100C69265 /* ForEach_.swift in Sources */,
 				A3483E8227B3CF3E00C69265 /* Shapes.swift in Sources */,
 				A3DBEE3127B99744002A8422 /* Alert_.swift in Sources */,
+				A3D211DD27BCFE6F00AA01A9 /* OnAppearDisappear.swift in Sources */,
 				A3483E9A27B4688400C69265 /* ScrollView_.swift in Sources */,
 				A36CAC0927BBD32A005C2877 /* DatePicker_.swift in Sources */,
 			);

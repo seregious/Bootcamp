@@ -40,8 +40,8 @@ struct TabView_: View {
 
 struct TabView__Previews: PreviewProvider {
     static var previews: some View {
-        otherTab()
-        //TabView_()
+        //otherTab()
+        TabView_()
     }
 }
 
