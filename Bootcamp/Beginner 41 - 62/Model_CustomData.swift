@@ -15,7 +15,7 @@ struct UserModel : Identifiable {
     let isVerified : Bool
 }
 
-struct CustomDataTypes: View {
+struct Model_CustomData: View {
     
     @State var users : [UserModel] = [
     //"Nick", "Emely", "Samanta", "Chris"
@@ -66,6 +66,6 @@ struct CustomDataTypes: View {
 
 struct CustomDataTypes_Previews: PreviewProvider {
     static var previews: some View {
-        CustomDataTypes()
+        Model_CustomData()
     }
 }

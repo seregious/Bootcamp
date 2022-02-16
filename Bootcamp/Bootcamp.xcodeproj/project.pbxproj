@@ -41,8 +41,9 @@
 		A3D211DD27BCFE6F00AA01A9 /* OnAppearDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211DC27BCFE6F00AA01A9 /* OnAppearDisappear.swift */; };
 		A3D211DF27BD02BD00AA01A9 /* IfLetGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211DE27BD02BD00AA01A9 /* IfLetGuard.swift */; };
 		A3D211E127BD0B3400AA01A9 /* OnTapGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211E027BD0B3400AA01A9 /* OnTapGesture_.swift */; };
-		A3D211E327BD11F000AA01A9 /* CustomDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211E227BD11F000AA01A9 /* CustomDataTypes.swift */; };
-		A3D211E527BD178500AA01A9 /* StateAndObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211E427BD178500AA01A9 /* StateAndObservedObject.swift */; };
+		A3D211E327BD11F000AA01A9 /* Model_CustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211E227BD11F000AA01A9 /* Model_CustomData.swift */; };
+		A3D211E527BD178500AA01A9 /* ViewModel_Observable_StateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211E427BD178500AA01A9 /* ViewModel_Observable_StateObject.swift */; };
+		A3D211E727BD662F00AA01A9 /* EnvironmentObject_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211E627BD662F00AA01A9 /* EnvironmentObject_.swift */; };
 		A3DBEE1127B5A9D0002A8422 /* SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1027B5A9D0002A8422 /* SafeArea.swift */; };
 		A3DBEE1327B5AF20002A8422 /* Button_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1227B5AF20002A8422 /* Button_.swift */; };
 		A3DBEE1527B67940002A8422 /* State_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1427B67940002A8422 /* State_.swift */; };
@@ -97,8 +98,9 @@
 		A3D211DC27BCFE6F00AA01A9 /* OnAppearDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearDisappear.swift; sourceTree = "<group>"; };
 		A3D211DE27BD02BD00AA01A9 /* IfLetGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuard.swift; sourceTree = "<group>"; };
 		A3D211E027BD0B3400AA01A9 /* OnTapGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTapGesture_.swift; sourceTree = "<group>"; };
-		A3D211E227BD11F000AA01A9 /* CustomDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataTypes.swift; sourceTree = "<group>"; };
-		A3D211E427BD178500AA01A9 /* StateAndObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndObservedObject.swift; sourceTree = "<group>"; };
+		A3D211E227BD11F000AA01A9 /* Model_CustomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_CustomData.swift; sourceTree = "<group>"; };
+		A3D211E427BD178500AA01A9 /* ViewModel_Observable_StateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel_Observable_StateObject.swift; sourceTree = "<group>"; };
+		A3D211E627BD662F00AA01A9 /* EnvironmentObject_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject_.swift; sourceTree = "<group>"; };
 		A3DBEE1027B5A9D0002A8422 /* SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeArea.swift; sourceTree = "<group>"; };
 		A3DBEE1227B5AF20002A8422 /* Button_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_.swift; sourceTree = "<group>"; };
 		A3DBEE1427B67940002A8422 /* State_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_.swift; sourceTree = "<group>"; };
@@ -253,8 +255,9 @@
 				A3D211DC27BCFE6F00AA01A9 /* OnAppearDisappear.swift */,
 				A3D211DE27BD02BD00AA01A9 /* IfLetGuard.swift */,
 				A3D211E027BD0B3400AA01A9 /* OnTapGesture_.swift */,
-				A3D211E227BD11F000AA01A9 /* CustomDataTypes.swift */,
-				A3D211E427BD178500AA01A9 /* StateAndObservedObject.swift */,
+				A3D211E227BD11F000AA01A9 /* Model_CustomData.swift */,
+				A3D211E427BD178500AA01A9 /* ViewModel_Observable_StateObject.swift */,
+				A3D211E627BD662F00AA01A9 /* EnvironmentObject_.swift */,
 			);
 			path = "Beginner 41 - 62";
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				A3DBEE2327B90458002A8422 /* AnimationTiming.swift in Sources */,
 				A3DBEE2527B907F2002A8422 /* Transition_.swift in Sources */,
 				A3483E9627B45F4800C69265 /* InitAndEnum.swift in Sources */,
+				A3D211E727BD662F00AA01A9 /* EnvironmentObject_.swift in Sources */,
 				A3483E8C27B4138C00C69265 /* Frame.swift in Sources */,
 				A3483E7627B3CC8700C69265 /* Text_.swift in Sources */,
 				A3483E9027B427A200C69265 /* H_V_ZStack.swift in Sources */,
@@ -349,7 +353,7 @@
 				A3D211DF27BD02BD00AA01A9 /* IfLetGuard.swift in Sources */,
 				A38782DD27BBBBD000040F22 /* Picker_.swift in Sources */,
 				A3DBEE1927B7F164002A8422 /* ExtractSubView.swift in Sources */,
-				A3D211E527BD178500AA01A9 /* StateAndObservedObject.swift in Sources */,
+				A3D211E527BD178500AA01A9 /* ViewModel_Observable_StateObject.swift in Sources */,
 				A3DBEE2B27B93846002A8422 /* PopOverMethods.swift in Sources */,
 				A3483E9427B4597000C69265 /* Spacers.swift in Sources */,
 				A3DBEE1127B5A9D0002A8422 /* SafeArea.swift in Sources */,
@@ -361,7 +365,7 @@
 				A3DBEE1527B67940002A8422 /* State_.swift in Sources */,
 				A3DBEE1D27B7F8BF002A8422 /* ConditionalStatement.swift in Sources */,
 				A3483E9C27B46CD900C69265 /* LazyGrids_GridsItems.swift in Sources */,
-				A3D211E327BD11F000AA01A9 /* CustomDataTypes.swift in Sources */,
+				A3D211E327BD11F000AA01A9 /* Model_CustomData.swift in Sources */,
 				A3DBEE2927B93309002A8422 /* Sheets.swift in Sources */,
 				A3483E8827B3FF3700C69265 /* Icons_.swift in Sources */,
 				A3483E7427B3CC8700C69265 /* BootcampApp.swift in Sources */,
