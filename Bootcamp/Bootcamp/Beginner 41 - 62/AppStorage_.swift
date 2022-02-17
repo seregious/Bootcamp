@@ -20,8 +20,13 @@ struct AppStorage_: View {
             }
             
             Button("save") {
-              currentUserName = "Nick"
+                let name = "Nick"
+              currentUserName = name
+                UserDefaults.standard.set(name, forKey: "name")
             }
+        }
+        .onAppear {
+            currentUserName = UserDefaults.standard.string(forKey: "name")
         }
     }
 }

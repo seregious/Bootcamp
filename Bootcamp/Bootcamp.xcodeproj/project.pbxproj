@@ -135,13 +135,7 @@
 		A3483E6727B3CC8700C69265 = {
 			isa = PBXGroup;
 			children = (
-				A3483E7227B3CC8700C69265 /* Beginner 1-20 */,
-				A3DBEE2627B90805002A8422 /* Beginner 21-40 */,
-				A3DBEE2727B9085C002A8422 /* Beginner 41 - 62 */,
-				A36CAC0C27BBE47E005C2877 /* Intermediate 1-15 */,
-				A36CAC0D27BBE483005C2877 /* Intermediate 16-29 */,
-				A36CAC0F27BBE4F1005C2877 /* Advanced 1-15 */,
-				A36CAC0E27BBE4D7005C2877 /* Advanced 15-26 */,
+				A362466627BE5F6D00948CC2 /* Bootcamp */,
 				A3483E7127B3CC8700C69265 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -157,7 +151,6 @@
 		A3483E7227B3CC8700C69265 /* Beginner 1-20 */ = {
 			isa = PBXGroup;
 			children = (
-				A3483E7327B3CC8700C69265 /* BootcampApp.swift */,
 				A3483E7527B3CC8700C69265 /* Text_.swift */,
 				A3483E8127B3CF3D00C69265 /* Shapes.swift */,
 				A3483E8327B3F3F300C69265 /* Colors.swift */,
@@ -177,7 +170,6 @@
 				A3DBEE1227B5AF20002A8422 /* Button_.swift */,
 				A3DBEE1427B67940002A8422 /* State_.swift */,
 				A3DBEE1627B6B399002A8422 /* ExtractFunctions.swift */,
-				A3483E7927B3CC8900C69265 /* Preview Content */,
 			);
 			path = "Beginner 1-20";
 			sourceTree = "<group>";
@@ -189,6 +181,22 @@
 				A3483E7A27B3CC8900C69265 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A362466627BE5F6D00948CC2 /* Bootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				A3483E7327B3CC8700C69265 /* BootcampApp.swift */,
+				A3483E7927B3CC8900C69265 /* Preview Content */,
+				A3483E7227B3CC8700C69265 /* Beginner 1-20 */,
+				A3DBEE2627B90805002A8422 /* Beginner 21-40 */,
+				A3DBEE2727B9085C002A8422 /* Beginner 41 - 62 */,
+				A36CAC0C27BBE47E005C2877 /* Intermediate 1-15 */,
+				A36CAC0D27BBE483005C2877 /* Intermediate 16-29 */,
+				A36CAC0F27BBE4F1005C2877 /* Advanced 1-15 */,
+				A36CAC0E27BBE4D7005C2877 /* Advanced 15-26 */,
+			);
+			path = Bootcamp;
 			sourceTree = "<group>";
 		};
 		A36CAC0C27BBE47E005C2877 /* Intermediate 1-15 */ = {
@@ -559,6 +567,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = Pleskanev.Bootcamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
