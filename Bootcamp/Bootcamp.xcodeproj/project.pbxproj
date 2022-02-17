@@ -28,6 +28,11 @@
 		A362466927BE65C500948CC2 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362466827BE65C500948CC2 /* IntroView.swift */; };
 		A362466B27BE673E00948CC2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362466A27BE673E00948CC2 /* OnboardingView.swift */; };
 		A362466D27BE7B2700948CC2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362466C27BE7B2700948CC2 /* ProfileView.swift */; };
+		A362466F27BEB49100948CC2 /* AsyncImage_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362466E27BEB49100948CC2 /* AsyncImage_.swift */; };
+		A362467127BEBA1500948CC2 /* BackgroundMaterials_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362467027BEBA1500948CC2 /* BackgroundMaterials_.swift */; };
+		A362467327BEBB9E00948CC2 /* TextSelection_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362467227BEBB9E00948CC2 /* TextSelection_.swift */; };
+		A362467527BEBC5300948CC2 /* ButtonStyle_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362467427BEBC5300948CC2 /* ButtonStyle_.swift */; };
+		A362467727BEC21400948CC2 /* ListSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362467627BEC21400948CC2 /* ListSwipeActions.swift */; };
 		A36CAC0727BBD1B8005C2877 /* ColorPicker_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36CAC0627BBD1B8005C2877 /* ColorPicker_.swift */; };
 		A36CAC0927BBD32A005C2877 /* DatePicker_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36CAC0827BBD32A005C2877 /* DatePicker_.swift */; };
 		A36CAC0B27BBE42F005C2877 /* Stepper_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36CAC0A27BBE42F005C2877 /* Stepper_.swift */; };
@@ -89,6 +94,11 @@
 		A362466827BE65C500948CC2 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		A362466A27BE673E00948CC2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		A362466C27BE7B2700948CC2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A362466E27BEB49100948CC2 /* AsyncImage_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage_.swift; sourceTree = "<group>"; };
+		A362467027BEBA1500948CC2 /* BackgroundMaterials_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterials_.swift; sourceTree = "<group>"; };
+		A362467227BEBB9E00948CC2 /* TextSelection_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelection_.swift; sourceTree = "<group>"; };
+		A362467427BEBC5300948CC2 /* ButtonStyle_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_.swift; sourceTree = "<group>"; };
+		A362467627BEC21400948CC2 /* ListSwipeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActions.swift; sourceTree = "<group>"; };
 		A36CAC0627BBD1B8005C2877 /* ColorPicker_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker_.swift; sourceTree = "<group>"; };
 		A36CAC0827BBD32A005C2877 /* DatePicker_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker_.swift; sourceTree = "<group>"; };
 		A36CAC0A27BBE42F005C2877 /* Stepper_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_.swift; sourceTree = "<group>"; };
@@ -285,6 +295,11 @@
 				A3D211E427BD178500AA01A9 /* ViewModel_Observable_StateObject.swift */,
 				A3D211E627BD662F00AA01A9 /* EnvironmentObject_.swift */,
 				A3D211E827BE59B800AA01A9 /* AppStorage_.swift */,
+				A362466E27BEB49100948CC2 /* AsyncImage_.swift */,
+				A362467027BEBA1500948CC2 /* BackgroundMaterials_.swift */,
+				A362467227BEBB9E00948CC2 /* TextSelection_.swift */,
+				A362467427BEBC5300948CC2 /* ButtonStyle_.swift */,
+				A362467627BEC21400948CC2 /* ListSwipeActions.swift */,
 				A362466727BE659200948CC2 /* Onboarding */,
 			);
 			path = "Beginner 41 - 62";
@@ -367,6 +382,7 @@
 				A3DBEE2D27B94087002A8422 /* NavigationView_.swift in Sources */,
 				A38782DB27BBB8BF00040F22 /* Toogle_.swift in Sources */,
 				A3DBEE2327B90458002A8422 /* AnimationTiming.swift in Sources */,
+				A362467327BEBB9E00948CC2 /* TextSelection_.swift in Sources */,
 				A3DBEE2527B907F2002A8422 /* Transition_.swift in Sources */,
 				A3483E9627B45F4800C69265 /* InitAndEnum.swift in Sources */,
 				A3D211E727BD662F00AA01A9 /* EnvironmentObject_.swift in Sources */,
@@ -379,6 +395,7 @@
 				A38782D327BA966E00040F22 /* ActionSheet_.swift in Sources */,
 				A3D211E927BE59B800AA01A9 /* AppStorage_.swift in Sources */,
 				A3483E9227B4354400C69265 /* PaddingAndSpacing.swift in Sources */,
+				A362467127BEBA1500948CC2 /* BackgroundMaterials_.swift in Sources */,
 				A3D211DF27BD02BD00AA01A9 /* IfLetGuard.swift in Sources */,
 				A38782DD27BBBBD000040F22 /* Picker_.swift in Sources */,
 				A3DBEE1927B7F164002A8422 /* ExtractSubView.swift in Sources */,
@@ -388,6 +405,7 @@
 				A3DBEE1127B5A9D0002A8422 /* SafeArea.swift in Sources */,
 				A3DBEE1B27B7F516002A8422 /* Binding_.swift in Sources */,
 				A38782D927BBB49A00040F22 /* TextEditor_.swift in Sources */,
+				A362466F27BEB49100948CC2 /* AsyncImage_.swift in Sources */,
 				A38782D527BAC05600040F22 /* ContextMenu_.swift in Sources */,
 				A3483E8627B3FB2700C69265 /* Gradients.swift in Sources */,
 				A3DBEE1327B5AF20002A8422 /* Button_.swift in Sources */,
@@ -395,10 +413,12 @@
 				A3DBEE1D27B7F8BF002A8422 /* ConditionalStatement.swift in Sources */,
 				A3483E9C27B46CD900C69265 /* LazyGrids_GridsItems.swift in Sources */,
 				A3D211E327BD11F000AA01A9 /* Model_CustomData.swift in Sources */,
+				A362467727BEC21400948CC2 /* ListSwipeActions.swift in Sources */,
 				A3DBEE2927B93309002A8422 /* Sheets.swift in Sources */,
 				A3483E8827B3FF3700C69265 /* Icons_.swift in Sources */,
 				A3483E7427B3CC8700C69265 /* BootcampApp.swift in Sources */,
 				A3DBEE1727B6B399002A8422 /* ExtractFunctions.swift in Sources */,
+				A362467527BEBC5300948CC2 /* ButtonStyle_.swift in Sources */,
 				A362466B27BE673E00948CC2 /* OnboardingView.swift in Sources */,
 				A3D211D927BBF92E00AA01A9 /* DarkMode_.swift in Sources */,
 				A36CAC0727BBD1B8005C2877 /* ColorPicker_.swift in Sources */,
