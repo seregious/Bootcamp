@@ -69,6 +69,10 @@
 		A3DBEE2D27B94087002A8422 /* NavigationView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE2C27B94087002A8422 /* NavigationView_.swift */; };
 		A3DBEE2F27B98922002A8422 /* List_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE2E27B98922002A8422 /* List_.swift */; };
 		A3DBEE3127B99744002A8422 /* Alert_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE3027B99744002A8422 /* Alert_.swift */; };
+		A3F2B73827BEE71D00530E80 /* Badge_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F2B73727BEE71D00530E80 /* Badge_.swift */; };
+		A3F2B73A27BEEA1D00530E80 /* FocusState_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F2B73927BEEA1D00530E80 /* FocusState_.swift */; };
+		A3F2B73C27BEF18B00530E80 /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F2B73B27BEF18B00530E80 /* CustomKeyboard.swift */; };
+		A3F2B73E27BEF48700530E80 /* LongPressGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F2B73D27BEF48700530E80 /* LongPressGesture_.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -135,6 +139,10 @@
 		A3DBEE2C27B94087002A8422 /* NavigationView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView_.swift; sourceTree = "<group>"; };
 		A3DBEE2E27B98922002A8422 /* List_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_.swift; sourceTree = "<group>"; };
 		A3DBEE3027B99744002A8422 /* Alert_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert_.swift; sourceTree = "<group>"; };
+		A3F2B73727BEE71D00530E80 /* Badge_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge_.swift; sourceTree = "<group>"; };
+		A3F2B73927BEEA1D00530E80 /* FocusState_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusState_.swift; sourceTree = "<group>"; };
+		A3F2B73B27BEF18B00530E80 /* CustomKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
+		A3F2B73D27BEF48700530E80 /* LongPressGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture_.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +236,7 @@
 		A36CAC0C27BBE47E005C2877 /* Intermediate 1-15 */ = {
 			isa = PBXGroup;
 			children = (
+				A3F2B73D27BEF48700530E80 /* LongPressGesture_.swift */,
 			);
 			path = "Intermediate 1-15";
 			sourceTree = "<group>";
@@ -300,6 +309,9 @@
 				A362467227BEBB9E00948CC2 /* TextSelection_.swift */,
 				A362467427BEBC5300948CC2 /* ButtonStyle_.swift */,
 				A362467627BEC21400948CC2 /* ListSwipeActions.swift */,
+				A3F2B73727BEE71D00530E80 /* Badge_.swift */,
+				A3F2B73927BEEA1D00530E80 /* FocusState_.swift */,
+				A3F2B73B27BEF18B00530E80 /* CustomKeyboard.swift */,
 				A362466727BE659200948CC2 /* Onboarding */,
 			);
 			path = "Beginner 41 - 62";
@@ -379,6 +391,7 @@
 				A3DBEE2F27B98922002A8422 /* List_.swift in Sources */,
 				A3D211DB27BBFE6D00AA01A9 /* Documentation.swift in Sources */,
 				A3DBEE1F27B7FEC2002A8422 /* TernaryOperator.swift in Sources */,
+				A3F2B73827BEE71D00530E80 /* Badge_.swift in Sources */,
 				A3DBEE2D27B94087002A8422 /* NavigationView_.swift in Sources */,
 				A38782DB27BBB8BF00040F22 /* Toogle_.swift in Sources */,
 				A3DBEE2327B90458002A8422 /* AnimationTiming.swift in Sources */,
@@ -387,6 +400,7 @@
 				A3483E9627B45F4800C69265 /* InitAndEnum.swift in Sources */,
 				A3D211E727BD662F00AA01A9 /* EnvironmentObject_.swift in Sources */,
 				A3483E8C27B4138C00C69265 /* Frame.swift in Sources */,
+				A3F2B73E27BEF48700530E80 /* LongPressGesture_.swift in Sources */,
 				A3483E7627B3CC8700C69265 /* Text_.swift in Sources */,
 				A3483E9027B427A200C69265 /* H_V_ZStack.swift in Sources */,
 				A3DBEE2127B83357002A8422 /* Animation_.swift in Sources */,
@@ -418,6 +432,7 @@
 				A3483E8827B3FF3700C69265 /* Icons_.swift in Sources */,
 				A3483E7427B3CC8700C69265 /* BootcampApp.swift in Sources */,
 				A3DBEE1727B6B399002A8422 /* ExtractFunctions.swift in Sources */,
+				A3F2B73A27BEEA1D00530E80 /* FocusState_.swift in Sources */,
 				A362467527BEBC5300948CC2 /* ButtonStyle_.swift in Sources */,
 				A362466B27BE673E00948CC2 /* OnboardingView.swift in Sources */,
 				A3D211D927BBF92E00AA01A9 /* DarkMode_.swift in Sources */,
@@ -428,6 +443,7 @@
 				A36CAC1127BBE771005C2877 /* Slider_.swift in Sources */,
 				A3483E8A27B40FDB00C69265 /* Image_.swift in Sources */,
 				A3483E8E27B4215F00C69265 /* BackgroundAndOverlay.swift in Sources */,
+				A3F2B73C27BEF18B00530E80 /* CustomKeyboard.swift in Sources */,
 				A3483E9827B4653100C69265 /* ForEach_.swift in Sources */,
 				A362466927BE65C500948CC2 /* IntroView.swift in Sources */,
 				A3483E8227B3CF3E00C69265 /* Shapes.swift in Sources */,
