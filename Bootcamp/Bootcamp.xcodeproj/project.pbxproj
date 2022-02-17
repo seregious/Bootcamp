@@ -44,6 +44,7 @@
 		A3D211E327BD11F000AA01A9 /* Model_CustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211E227BD11F000AA01A9 /* Model_CustomData.swift */; };
 		A3D211E527BD178500AA01A9 /* ViewModel_Observable_StateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211E427BD178500AA01A9 /* ViewModel_Observable_StateObject.swift */; };
 		A3D211E727BD662F00AA01A9 /* EnvironmentObject_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211E627BD662F00AA01A9 /* EnvironmentObject_.swift */; };
+		A3D211E927BE59B800AA01A9 /* AppStorage_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211E827BE59B800AA01A9 /* AppStorage_.swift */; };
 		A3DBEE1127B5A9D0002A8422 /* SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1027B5A9D0002A8422 /* SafeArea.swift */; };
 		A3DBEE1327B5AF20002A8422 /* Button_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1227B5AF20002A8422 /* Button_.swift */; };
 		A3DBEE1527B67940002A8422 /* State_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBEE1427B67940002A8422 /* State_.swift */; };
@@ -101,6 +102,7 @@
 		A3D211E227BD11F000AA01A9 /* Model_CustomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_CustomData.swift; sourceTree = "<group>"; };
 		A3D211E427BD178500AA01A9 /* ViewModel_Observable_StateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel_Observable_StateObject.swift; sourceTree = "<group>"; };
 		A3D211E627BD662F00AA01A9 /* EnvironmentObject_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject_.swift; sourceTree = "<group>"; };
+		A3D211E827BE59B800AA01A9 /* AppStorage_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_.swift; sourceTree = "<group>"; };
 		A3DBEE1027B5A9D0002A8422 /* SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeArea.swift; sourceTree = "<group>"; };
 		A3DBEE1227B5AF20002A8422 /* Button_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_.swift; sourceTree = "<group>"; };
 		A3DBEE1427B67940002A8422 /* State_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_.swift; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 				A3D211E227BD11F000AA01A9 /* Model_CustomData.swift */,
 				A3D211E427BD178500AA01A9 /* ViewModel_Observable_StateObject.swift */,
 				A3D211E627BD662F00AA01A9 /* EnvironmentObject_.swift */,
+				A3D211E827BE59B800AA01A9 /* AppStorage_.swift */,
 			);
 			path = "Beginner 41 - 62";
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				A38782D727BAC39400040F22 /* TextField_.swift in Sources */,
 				A3D211E127BD0B3400AA01A9 /* OnTapGesture_.swift in Sources */,
 				A38782D327BA966E00040F22 /* ActionSheet_.swift in Sources */,
+				A3D211E927BE59B800AA01A9 /* AppStorage_.swift in Sources */,
 				A3483E9227B4354400C69265 /* PaddingAndSpacing.swift in Sources */,
 				A3D211DF27BD02BD00AA01A9 /* IfLetGuard.swift in Sources */,
 				A38782DD27BBBBD000040F22 /* Picker_.swift in Sources */,
