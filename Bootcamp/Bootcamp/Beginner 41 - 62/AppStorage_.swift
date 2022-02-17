@@ -9,7 +9,8 @@ import SwiftUI
 
 struct AppStorage_: View {
     
-    @State var currentUserName : String?
+    //@State var currentUserName : String?
+    @AppStorage("name") var currentUserName : String?
     
     var body: some View {
         VStack(spacing: 20) {
@@ -22,14 +23,14 @@ struct AppStorage_: View {
             Button("save") {
                 let name = "Nick"
               currentUserName = name
-                UserDefaults.standard.set(name, forKey: "name")
+//                UserDefaults.standard.set(name, forKey: "name")
             }
         }
-        .onAppear {
-            currentUserName = UserDefaults.standard.string(forKey: "name")
+//        .onAppear {
+//            currentUserName = UserDefaults.standard.string(forKey: "name")
         }
     }
-}
+
 
 struct AppStorage_Previews: PreviewProvider {
     static var previews: some View {
