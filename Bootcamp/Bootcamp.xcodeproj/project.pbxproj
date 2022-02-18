@@ -25,6 +25,10 @@
 		A3483E9827B4653100C69265 /* ForEach_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3483E9727B4653100C69265 /* ForEach_.swift */; };
 		A3483E9A27B4688400C69265 /* ScrollView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3483E9927B4688400C69265 /* ScrollView_.swift */; };
 		A3483E9C27B46CD900C69265 /* LazyGrids_GridsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3483E9B27B46CD900C69265 /* LazyGrids_GridsItems.swift */; };
+		A35FED3E27C03C770099F9A3 /* MaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35FED3D27C03C770099F9A3 /* MaskModifier.swift */; };
+		A35FED4027C041310099F9A3 /* SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35FED3F27C041310099F9A3 /* SoundEffects.swift */; };
+		A35FED4427C04A080099F9A3 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A35FED4227C04A080099F9A3 /* badum.mp3 */; };
+		A35FED4527C04A080099F9A3 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A35FED4327C04A080099F9A3 /* tada.mp3 */; };
 		A362466927BE65C500948CC2 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362466827BE65C500948CC2 /* IntroView.swift */; };
 		A362466B27BE673E00948CC2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362466A27BE673E00948CC2 /* OnboardingView.swift */; };
 		A362466D27BE7B2700948CC2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362466C27BE7B2700948CC2 /* ProfileView.swift */; };
@@ -44,6 +48,8 @@
 		A38782D927BBB49A00040F22 /* TextEditor_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782D827BBB49A00040F22 /* TextEditor_.swift */; };
 		A38782DB27BBB8BF00040F22 /* Toogle_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782DA27BBB8BF00040F22 /* Toogle_.swift */; };
 		A38782DD27BBBBD000040F22 /* Picker_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782DC27BBBBD000040F22 /* Picker_.swift */; };
+		A38CF37427BFEE89006EAF71 /* GeometryReader_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CF37327BFEE89006EAF71 /* GeometryReader_.swift */; };
+		A38CF37627BFFFD3006EAF71 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CF37527BFFFD3006EAF71 /* MultipleSheets.swift */; };
 		A3AFC6C627BF9F9B000E61A9 /* MagnificationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFC6C527BF9F9B000E61A9 /* MagnificationGesture_.swift */; };
 		A3AFC6C827BFB4C5000E61A9 /* RotationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFC6C727BFB4C5000E61A9 /* RotationGesture_.swift */; };
 		A3AFC6CA27BFC440000E61A9 /* DragGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFC6C927BFC440000E61A9 /* DragGesture_.swift */; };
@@ -100,6 +106,10 @@
 		A3483E9727B4653100C69265 /* ForEach_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_.swift; sourceTree = "<group>"; };
 		A3483E9927B4688400C69265 /* ScrollView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_.swift; sourceTree = "<group>"; };
 		A3483E9B27B46CD900C69265 /* LazyGrids_GridsItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrids_GridsItems.swift; sourceTree = "<group>"; };
+		A35FED3D27C03C770099F9A3 /* MaskModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskModifier.swift; sourceTree = "<group>"; };
+		A35FED3F27C041310099F9A3 /* SoundEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffects.swift; sourceTree = "<group>"; };
+		A35FED4227C04A080099F9A3 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		A35FED4327C04A080099F9A3 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		A362466827BE65C500948CC2 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		A362466A27BE673E00948CC2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		A362466C27BE7B2700948CC2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -119,6 +129,8 @@
 		A38782D827BBB49A00040F22 /* TextEditor_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_.swift; sourceTree = "<group>"; };
 		A38782DA27BBB8BF00040F22 /* Toogle_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toogle_.swift; sourceTree = "<group>"; };
 		A38782DC27BBBBD000040F22 /* Picker_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_.swift; sourceTree = "<group>"; };
+		A38CF37327BFEE89006EAF71 /* GeometryReader_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_.swift; sourceTree = "<group>"; };
+		A38CF37527BFFFD3006EAF71 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
 		A3AFC6C527BF9F9B000E61A9 /* MagnificationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture_.swift; sourceTree = "<group>"; };
 		A3AFC6C727BFB4C5000E61A9 /* RotationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture_.swift; sourceTree = "<group>"; };
 		A3AFC6C927BFC440000E61A9 /* DragGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_.swift; sourceTree = "<group>"; };
@@ -217,9 +229,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A35FED4127C049CA0099F9A3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A35FED4227C04A080099F9A3 /* badum.mp3 */,
+				A35FED4327C04A080099F9A3 /* tada.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		A362466627BE5F6D00948CC2 /* Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				A35FED4127C049CA0099F9A3 /* Sounds */,
 				A3483E7327B3CC8700C69265 /* BootcampApp.swift */,
 				A3483E7927B3CC8900C69265 /* Preview Content */,
 				A3483E7227B3CC8700C69265 /* Beginner 1-20 */,
@@ -252,6 +274,10 @@
 				A3AFC6C927BFC440000E61A9 /* DragGesture_.swift */,
 				A3AFC6CB27BFCB4C000E61A9 /* DragGesture2.swift */,
 				A3AFC6CD27BFD3A1000E61A9 /* ScrollViewReader_.swift */,
+				A38CF37327BFEE89006EAF71 /* GeometryReader_.swift */,
+				A38CF37527BFFFD3006EAF71 /* MultipleSheets.swift */,
+				A35FED3D27C03C770099F9A3 /* MaskModifier.swift */,
+				A35FED3F27C041310099F9A3 /* SoundEffects.swift */,
 			);
 			path = "Intermediate 1-15";
 			sourceTree = "<group>";
@@ -390,6 +416,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35FED4527C04A080099F9A3 /* tada.mp3 in Resources */,
+				A35FED4427C04A080099F9A3 /* badum.mp3 in Resources */,
 				A3483E7B27B3CC8900C69265 /* Preview Assets.xcassets in Resources */,
 				A3483E7827B3CC8900C69265 /* Assets.xcassets in Resources */,
 			);
@@ -406,6 +434,7 @@
 				A3DBEE2F27B98922002A8422 /* List_.swift in Sources */,
 				A3D211DB27BBFE6D00AA01A9 /* Documentation.swift in Sources */,
 				A3DBEE1F27B7FEC2002A8422 /* TernaryOperator.swift in Sources */,
+				A38CF37427BFEE89006EAF71 /* GeometryReader_.swift in Sources */,
 				A3F2B73827BEE71D00530E80 /* Badge_.swift in Sources */,
 				A3DBEE2D27B94087002A8422 /* NavigationView_.swift in Sources */,
 				A38782DB27BBB8BF00040F22 /* Toogle_.swift in Sources */,
@@ -419,6 +448,7 @@
 				A3F2B73E27BEF48700530E80 /* LongPressGesture_.swift in Sources */,
 				A3483E7627B3CC8700C69265 /* Text_.swift in Sources */,
 				A3483E9027B427A200C69265 /* H_V_ZStack.swift in Sources */,
+				A35FED4027C041310099F9A3 /* SoundEffects.swift in Sources */,
 				A3DBEE2127B83357002A8422 /* Animation_.swift in Sources */,
 				A38782D727BAC39400040F22 /* TextField_.swift in Sources */,
 				A3D211E127BD0B3400AA01A9 /* OnTapGesture_.swift in Sources */,
@@ -437,6 +467,7 @@
 				A3DBEE1B27B7F516002A8422 /* Binding_.swift in Sources */,
 				A38782D927BBB49A00040F22 /* TextEditor_.swift in Sources */,
 				A362466F27BEB49100948CC2 /* AsyncImage_.swift in Sources */,
+				A38CF37627BFFFD3006EAF71 /* MultipleSheets.swift in Sources */,
 				A3AFC6CE27BFD3A1000E61A9 /* ScrollViewReader_.swift in Sources */,
 				A38782D527BAC05600040F22 /* ContextMenu_.swift in Sources */,
 				A3483E8627B3FB2700C69265 /* Gradients.swift in Sources */,
@@ -464,6 +495,7 @@
 				A3483E8E27B4215F00C69265 /* BackgroundAndOverlay.swift in Sources */,
 				A3AFC6C827BFB4C5000E61A9 /* RotationGesture_.swift in Sources */,
 				A3F2B73C27BEF18B00530E80 /* CustomKeyboard.swift in Sources */,
+				A35FED3E27C03C770099F9A3 /* MaskModifier.swift in Sources */,
 				A3483E9827B4653100C69265 /* ForEach_.swift in Sources */,
 				A362466927BE65C500948CC2 /* IntroView.swift in Sources */,
 				A3483E8227B3CF3E00C69265 /* Shapes.swift in Sources */,
