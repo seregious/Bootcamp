@@ -44,6 +44,11 @@
 		A38782D927BBB49A00040F22 /* TextEditor_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782D827BBB49A00040F22 /* TextEditor_.swift */; };
 		A38782DB27BBB8BF00040F22 /* Toogle_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782DA27BBB8BF00040F22 /* Toogle_.swift */; };
 		A38782DD27BBBBD000040F22 /* Picker_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782DC27BBBBD000040F22 /* Picker_.swift */; };
+		A3AFC6C627BF9F9B000E61A9 /* MagnificationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFC6C527BF9F9B000E61A9 /* MagnificationGesture_.swift */; };
+		A3AFC6C827BFB4C5000E61A9 /* RotationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFC6C727BFB4C5000E61A9 /* RotationGesture_.swift */; };
+		A3AFC6CA27BFC440000E61A9 /* DragGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFC6C927BFC440000E61A9 /* DragGesture_.swift */; };
+		A3AFC6CC27BFCB4C000E61A9 /* DragGesture2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFC6CB27BFCB4C000E61A9 /* DragGesture2.swift */; };
+		A3AFC6CE27BFD3A1000E61A9 /* ScrollViewReader_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFC6CD27BFD3A1000E61A9 /* ScrollViewReader_.swift */; };
 		A3D211D927BBF92E00AA01A9 /* DarkMode_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211D827BBF92E00AA01A9 /* DarkMode_.swift */; };
 		A3D211DB27BBFE6D00AA01A9 /* Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211DA27BBFE6D00AA01A9 /* Documentation.swift */; };
 		A3D211DD27BCFE6F00AA01A9 /* OnAppearDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211DC27BCFE6F00AA01A9 /* OnAppearDisappear.swift */; };
@@ -114,6 +119,11 @@
 		A38782D827BBB49A00040F22 /* TextEditor_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_.swift; sourceTree = "<group>"; };
 		A38782DA27BBB8BF00040F22 /* Toogle_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toogle_.swift; sourceTree = "<group>"; };
 		A38782DC27BBBBD000040F22 /* Picker_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_.swift; sourceTree = "<group>"; };
+		A3AFC6C527BF9F9B000E61A9 /* MagnificationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture_.swift; sourceTree = "<group>"; };
+		A3AFC6C727BFB4C5000E61A9 /* RotationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture_.swift; sourceTree = "<group>"; };
+		A3AFC6C927BFC440000E61A9 /* DragGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_.swift; sourceTree = "<group>"; };
+		A3AFC6CB27BFCB4C000E61A9 /* DragGesture2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture2.swift; sourceTree = "<group>"; };
+		A3AFC6CD27BFD3A1000E61A9 /* ScrollViewReader_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_.swift; sourceTree = "<group>"; };
 		A3D211D827BBF92E00AA01A9 /* DarkMode_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMode_.swift; sourceTree = "<group>"; };
 		A3D211DA27BBFE6D00AA01A9 /* Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
 		A3D211DC27BCFE6F00AA01A9 /* OnAppearDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearDisappear.swift; sourceTree = "<group>"; };
@@ -237,6 +247,11 @@
 			isa = PBXGroup;
 			children = (
 				A3F2B73D27BEF48700530E80 /* LongPressGesture_.swift */,
+				A3AFC6C527BF9F9B000E61A9 /* MagnificationGesture_.swift */,
+				A3AFC6C727BFB4C5000E61A9 /* RotationGesture_.swift */,
+				A3AFC6C927BFC440000E61A9 /* DragGesture_.swift */,
+				A3AFC6CB27BFCB4C000E61A9 /* DragGesture2.swift */,
+				A3AFC6CD27BFD3A1000E61A9 /* ScrollViewReader_.swift */,
 			);
 			path = "Intermediate 1-15";
 			sourceTree = "<group>";
@@ -397,6 +412,7 @@
 				A3DBEE2327B90458002A8422 /* AnimationTiming.swift in Sources */,
 				A362467327BEBB9E00948CC2 /* TextSelection_.swift in Sources */,
 				A3DBEE2527B907F2002A8422 /* Transition_.swift in Sources */,
+				A3AFC6CA27BFC440000E61A9 /* DragGesture_.swift in Sources */,
 				A3483E9627B45F4800C69265 /* InitAndEnum.swift in Sources */,
 				A3D211E727BD662F00AA01A9 /* EnvironmentObject_.swift in Sources */,
 				A3483E8C27B4138C00C69265 /* Frame.swift in Sources */,
@@ -406,6 +422,7 @@
 				A3DBEE2127B83357002A8422 /* Animation_.swift in Sources */,
 				A38782D727BAC39400040F22 /* TextField_.swift in Sources */,
 				A3D211E127BD0B3400AA01A9 /* OnTapGesture_.swift in Sources */,
+				A3AFC6CC27BFCB4C000E61A9 /* DragGesture2.swift in Sources */,
 				A38782D327BA966E00040F22 /* ActionSheet_.swift in Sources */,
 				A3D211E927BE59B800AA01A9 /* AppStorage_.swift in Sources */,
 				A3483E9227B4354400C69265 /* PaddingAndSpacing.swift in Sources */,
@@ -420,6 +437,7 @@
 				A3DBEE1B27B7F516002A8422 /* Binding_.swift in Sources */,
 				A38782D927BBB49A00040F22 /* TextEditor_.swift in Sources */,
 				A362466F27BEB49100948CC2 /* AsyncImage_.swift in Sources */,
+				A3AFC6CE27BFD3A1000E61A9 /* ScrollViewReader_.swift in Sources */,
 				A38782D527BAC05600040F22 /* ContextMenu_.swift in Sources */,
 				A3483E8627B3FB2700C69265 /* Gradients.swift in Sources */,
 				A3DBEE1327B5AF20002A8422 /* Button_.swift in Sources */,
@@ -430,6 +448,7 @@
 				A362467727BEC21400948CC2 /* ListSwipeActions.swift in Sources */,
 				A3DBEE2927B93309002A8422 /* Sheets.swift in Sources */,
 				A3483E8827B3FF3700C69265 /* Icons_.swift in Sources */,
+				A3AFC6C627BF9F9B000E61A9 /* MagnificationGesture_.swift in Sources */,
 				A3483E7427B3CC8700C69265 /* BootcampApp.swift in Sources */,
 				A3DBEE1727B6B399002A8422 /* ExtractFunctions.swift in Sources */,
 				A3F2B73A27BEEA1D00530E80 /* FocusState_.swift in Sources */,
@@ -443,6 +462,7 @@
 				A36CAC1127BBE771005C2877 /* Slider_.swift in Sources */,
 				A3483E8A27B40FDB00C69265 /* Image_.swift in Sources */,
 				A3483E8E27B4215F00C69265 /* BackgroundAndOverlay.swift in Sources */,
+				A3AFC6C827BFB4C5000E61A9 /* RotationGesture_.swift in Sources */,
 				A3F2B73C27BEF18B00530E80 /* CustomKeyboard.swift in Sources */,
 				A3483E9827B4653100C69265 /* ForEach_.swift in Sources */,
 				A362466927BE65C500948CC2 /* IntroView.swift in Sources */,
