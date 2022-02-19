@@ -50,6 +50,9 @@
 		A38782DD27BBBBD000040F22 /* Picker_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38782DC27BBBBD000040F22 /* Picker_.swift */; };
 		A38CF37427BFEE89006EAF71 /* GeometryReader_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CF37327BFEE89006EAF71 /* GeometryReader_.swift */; };
 		A38CF37627BFFFD3006EAF71 /* MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CF37527BFFFD3006EAF71 /* MultipleSheets.swift */; };
+		A399FE0627C04C3100723ACC /* VibrationHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A399FE0527C04C3100723ACC /* VibrationHaptic.swift */; };
+		A399FE0827C04FA200723ACC /* LocalNotification_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A399FE0727C04FA200723ACC /* LocalNotification_.swift */; };
+		A399FE0A27C05ABB00723ACC /* HashableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A399FE0927C05ABB00723ACC /* HashableProtocol.swift */; };
 		A3AFC6C627BF9F9B000E61A9 /* MagnificationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFC6C527BF9F9B000E61A9 /* MagnificationGesture_.swift */; };
 		A3AFC6C827BFB4C5000E61A9 /* RotationGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFC6C727BFB4C5000E61A9 /* RotationGesture_.swift */; };
 		A3AFC6CA27BFC440000E61A9 /* DragGesture_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFC6C927BFC440000E61A9 /* DragGesture_.swift */; };
@@ -131,6 +134,9 @@
 		A38782DC27BBBBD000040F22 /* Picker_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_.swift; sourceTree = "<group>"; };
 		A38CF37327BFEE89006EAF71 /* GeometryReader_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_.swift; sourceTree = "<group>"; };
 		A38CF37527BFFFD3006EAF71 /* MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets.swift; sourceTree = "<group>"; };
+		A399FE0527C04C3100723ACC /* VibrationHaptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationHaptic.swift; sourceTree = "<group>"; };
+		A399FE0727C04FA200723ACC /* LocalNotification_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification_.swift; sourceTree = "<group>"; };
+		A399FE0927C05ABB00723ACC /* HashableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableProtocol.swift; sourceTree = "<group>"; };
 		A3AFC6C527BF9F9B000E61A9 /* MagnificationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture_.swift; sourceTree = "<group>"; };
 		A3AFC6C727BFB4C5000E61A9 /* RotationGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture_.swift; sourceTree = "<group>"; };
 		A3AFC6C927BFC440000E61A9 /* DragGesture_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_.swift; sourceTree = "<group>"; };
@@ -278,6 +284,9 @@
 				A38CF37527BFFFD3006EAF71 /* MultipleSheets.swift */,
 				A35FED3D27C03C770099F9A3 /* MaskModifier.swift */,
 				A35FED3F27C041310099F9A3 /* SoundEffects.swift */,
+				A399FE0527C04C3100723ACC /* VibrationHaptic.swift */,
+				A399FE0727C04FA200723ACC /* LocalNotification_.swift */,
+				A399FE0927C05ABB00723ACC /* HashableProtocol.swift */,
 			);
 			path = "Intermediate 1-15";
 			sourceTree = "<group>";
@@ -447,12 +456,15 @@
 				A3483E8C27B4138C00C69265 /* Frame.swift in Sources */,
 				A3F2B73E27BEF48700530E80 /* LongPressGesture_.swift in Sources */,
 				A3483E7627B3CC8700C69265 /* Text_.swift in Sources */,
+				A399FE0627C04C3100723ACC /* VibrationHaptic.swift in Sources */,
 				A3483E9027B427A200C69265 /* H_V_ZStack.swift in Sources */,
 				A35FED4027C041310099F9A3 /* SoundEffects.swift in Sources */,
 				A3DBEE2127B83357002A8422 /* Animation_.swift in Sources */,
 				A38782D727BAC39400040F22 /* TextField_.swift in Sources */,
 				A3D211E127BD0B3400AA01A9 /* OnTapGesture_.swift in Sources */,
+				A399FE0A27C05ABB00723ACC /* HashableProtocol.swift in Sources */,
 				A3AFC6CC27BFCB4C000E61A9 /* DragGesture2.swift in Sources */,
+				A399FE0827C04FA200723ACC /* LocalNotification_.swift in Sources */,
 				A38782D327BA966E00040F22 /* ActionSheet_.swift in Sources */,
 				A3D211E927BE59B800AA01A9 /* AppStorage_.swift in Sources */,
 				A3483E9227B4354400C69265 /* PaddingAndSpacing.swift in Sources */,
