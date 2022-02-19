@@ -7,9 +7,36 @@
 
 import SwiftUI
 
+struct MyCustomModel : Hashable {
+    let id = UUID().uuidString
+    let title : String
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(title)
+    }
+}
+
+
 struct HashableProtocol: View {
+    
+    let data : [MyCustomModel] = [
+    MyCustomModel(title: "one"),
+    MyCustomModel(title: "two"),
+    MyCustomModel(title: "three"),
+    MyCustomModel(title: "four"),
+    MyCustomModel(title: "five")
+    ]
+
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack(spacing: 40) {
+                ForEach(data, id: \.self) {item in
+                    Text(item.hashValue.description)
+                        .font(.headline)
+                }
+            }
+        }
     }
 }
 
