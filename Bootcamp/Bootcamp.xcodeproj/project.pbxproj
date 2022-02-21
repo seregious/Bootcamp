@@ -59,6 +59,9 @@
 		A3AFC6CC27BFCB4C000E61A9 /* DragGesture2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFC6CB27BFCB4C000E61A9 /* DragGesture2.swift */; };
 		A3AFC6CE27BFD3A1000E61A9 /* ScrollViewReader_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFC6CD27BFD3A1000E61A9 /* ScrollViewReader_.swift */; };
 		A3BF4AA127C0FC77001233A5 /* SortFilterMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BF4AA027C0FC77001233A5 /* SortFilterMap.swift */; };
+		A3BF4AC227C29373001233A5 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BF4AC127C29373001233A5 /* CoreData.swift */; };
+		A3BF4AC527C2954D001233A5 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3BF4AC327C2954D001233A5 /* FruitsContainer.xcdatamodeld */; };
+		A3BF4ACA27C2ACFD001233A5 /* Threads.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BF4AC927C2ACFD001233A5 /* Threads.swift */; };
 		A3D211D927BBF92E00AA01A9 /* DarkMode_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211D827BBF92E00AA01A9 /* DarkMode_.swift */; };
 		A3D211DB27BBFE6D00AA01A9 /* Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211DA27BBFE6D00AA01A9 /* Documentation.swift */; };
 		A3D211DD27BCFE6F00AA01A9 /* OnAppearDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211DC27BCFE6F00AA01A9 /* OnAppearDisappear.swift */; };
@@ -144,6 +147,9 @@
 		A3AFC6CB27BFCB4C000E61A9 /* DragGesture2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture2.swift; sourceTree = "<group>"; };
 		A3AFC6CD27BFD3A1000E61A9 /* ScrollViewReader_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_.swift; sourceTree = "<group>"; };
 		A3BF4AA027C0FC77001233A5 /* SortFilterMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterMap.swift; sourceTree = "<group>"; };
+		A3BF4AC127C29373001233A5 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		A3BF4AC427C2954D001233A5 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		A3BF4AC927C2ACFD001233A5 /* Threads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threads.swift; sourceTree = "<group>"; };
 		A3D211D827BBF92E00AA01A9 /* DarkMode_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMode_.swift; sourceTree = "<group>"; };
 		A3D211DA27BBFE6D00AA01A9 /* Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
 		A3D211DC27BCFE6F00AA01A9 /* OnAppearDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearDisappear.swift; sourceTree = "<group>"; };
@@ -290,6 +296,9 @@
 				A399FE0727C04FA200723ACC /* LocalNotification_.swift */,
 				A399FE0927C05ABB00723ACC /* HashableProtocol.swift */,
 				A3BF4AA027C0FC77001233A5 /* SortFilterMap.swift */,
+				A3BF4AC127C29373001233A5 /* CoreData.swift */,
+				A3BF4AC327C2954D001233A5 /* FruitsContainer.xcdatamodeld */,
+				A3BF4AC927C2ACFD001233A5 /* Threads.swift */,
 			);
 			path = "Intermediate 1-15";
 			sourceTree = "<group>";
@@ -482,6 +491,7 @@
 				A3DBEE1B27B7F516002A8422 /* Binding_.swift in Sources */,
 				A38782D927BBB49A00040F22 /* TextEditor_.swift in Sources */,
 				A362466F27BEB49100948CC2 /* AsyncImage_.swift in Sources */,
+				A3BF4AC227C29373001233A5 /* CoreData.swift in Sources */,
 				A38CF37627BFFFD3006EAF71 /* MultipleSheets.swift in Sources */,
 				A3BF4AA127C0FC77001233A5 /* SortFilterMap.swift in Sources */,
 				A3AFC6CE27BFD3A1000E61A9 /* ScrollViewReader_.swift in Sources */,
@@ -491,6 +501,7 @@
 				A3DBEE1527B67940002A8422 /* State_.swift in Sources */,
 				A3DBEE1D27B7F8BF002A8422 /* ConditionalStatement.swift in Sources */,
 				A3483E9C27B46CD900C69265 /* LazyGrids_GridsItems.swift in Sources */,
+				A3BF4AC527C2954D001233A5 /* FruitsContainer.xcdatamodeld in Sources */,
 				A3D211E327BD11F000AA01A9 /* Model_CustomData.swift in Sources */,
 				A362467727BEC21400948CC2 /* ListSwipeActions.swift in Sources */,
 				A3DBEE2927B93309002A8422 /* Sheets.swift in Sources */,
@@ -507,6 +518,7 @@
 				A36CAC0B27BBE42F005C2877 /* Stepper_.swift in Sources */,
 				A36CAC1327BBF11C005C2877 /* TabView_.swift in Sources */,
 				A36CAC1127BBE771005C2877 /* Slider_.swift in Sources */,
+				A3BF4ACA27C2ACFD001233A5 /* Threads.swift in Sources */,
 				A3483E8A27B40FDB00C69265 /* Image_.swift in Sources */,
 				A3483E8E27B4215F00C69265 /* BackgroundAndOverlay.swift in Sources */,
 				A3AFC6C827BFB4C5000E61A9 /* RotationGesture_.swift in Sources */,
@@ -722,6 +734,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A3BF4AC327C2954D001233A5 /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A3BF4AC427C2954D001233A5 /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = A3BF4AC427C2954D001233A5 /* FruitsContainer.xcdatamodel */;
+			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A3483E6827B3CC8700C69265 /* Project object */;
 }
