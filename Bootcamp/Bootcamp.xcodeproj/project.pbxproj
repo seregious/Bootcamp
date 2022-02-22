@@ -25,6 +25,9 @@
 		A3483E9827B4653100C69265 /* ForEach_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3483E9727B4653100C69265 /* ForEach_.swift */; };
 		A3483E9A27B4688400C69265 /* ScrollView_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3483E9927B4688400C69265 /* ScrollView_.swift */; };
 		A3483E9C27B46CD900C69265 /* LazyGrids_GridsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3483E9B27B46CD900C69265 /* LazyGrids_GridsItems.swift */; };
+		A35AD8C327C3CAF800E88AB0 /* Typealias_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35AD8C227C3CAF800E88AB0 /* Typealias_.swift */; };
+		A35AD8C527C3CCC000E88AB0 /* Escaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35AD8C427C3CCC000E88AB0 /* Escaping.swift */; };
+		A35AD8C727C3EE0E00E88AB0 /* Codable_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35AD8C627C3EE0E00E88AB0 /* Codable_.swift */; };
 		A35FED3E27C03C770099F9A3 /* MaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35FED3D27C03C770099F9A3 /* MaskModifier.swift */; };
 		A35FED4027C041310099F9A3 /* SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35FED3F27C041310099F9A3 /* SoundEffects.swift */; };
 		A35FED4427C04A080099F9A3 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A35FED4227C04A080099F9A3 /* badum.mp3 */; };
@@ -62,6 +65,7 @@
 		A3BF4AC227C29373001233A5 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BF4AC127C29373001233A5 /* CoreData.swift */; };
 		A3BF4AC527C2954D001233A5 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3BF4AC327C2954D001233A5 /* FruitsContainer.xcdatamodeld */; };
 		A3BF4ACA27C2ACFD001233A5 /* Threads.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BF4AC927C2ACFD001233A5 /* Threads.swift */; };
+		A3BF4ACC27C3C3E6001233A5 /* WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BF4ACB27C3C3E6001233A5 /* WeakSelf.swift */; };
 		A3D211D927BBF92E00AA01A9 /* DarkMode_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211D827BBF92E00AA01A9 /* DarkMode_.swift */; };
 		A3D211DB27BBFE6D00AA01A9 /* Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211DA27BBFE6D00AA01A9 /* Documentation.swift */; };
 		A3D211DD27BCFE6F00AA01A9 /* OnAppearDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D211DC27BCFE6F00AA01A9 /* OnAppearDisappear.swift */; };
@@ -113,6 +117,9 @@
 		A3483E9727B4653100C69265 /* ForEach_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_.swift; sourceTree = "<group>"; };
 		A3483E9927B4688400C69265 /* ScrollView_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_.swift; sourceTree = "<group>"; };
 		A3483E9B27B46CD900C69265 /* LazyGrids_GridsItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrids_GridsItems.swift; sourceTree = "<group>"; };
+		A35AD8C227C3CAF800E88AB0 /* Typealias_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias_.swift; sourceTree = "<group>"; };
+		A35AD8C427C3CCC000E88AB0 /* Escaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escaping.swift; sourceTree = "<group>"; };
+		A35AD8C627C3EE0E00E88AB0 /* Codable_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable_.swift; sourceTree = "<group>"; };
 		A35FED3D27C03C770099F9A3 /* MaskModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskModifier.swift; sourceTree = "<group>"; };
 		A35FED3F27C041310099F9A3 /* SoundEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffects.swift; sourceTree = "<group>"; };
 		A35FED4227C04A080099F9A3 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
@@ -150,6 +157,7 @@
 		A3BF4AC127C29373001233A5 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
 		A3BF4AC427C2954D001233A5 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		A3BF4AC927C2ACFD001233A5 /* Threads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threads.swift; sourceTree = "<group>"; };
+		A3BF4ACB27C3C3E6001233A5 /* WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelf.swift; sourceTree = "<group>"; };
 		A3D211D827BBF92E00AA01A9 /* DarkMode_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMode_.swift; sourceTree = "<group>"; };
 		A3D211DA27BBFE6D00AA01A9 /* Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
 		A3D211DC27BCFE6F00AA01A9 /* OnAppearDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearDisappear.swift; sourceTree = "<group>"; };
@@ -298,7 +306,6 @@
 				A3BF4AA027C0FC77001233A5 /* SortFilterMap.swift */,
 				A3BF4AC127C29373001233A5 /* CoreData.swift */,
 				A3BF4AC327C2954D001233A5 /* FruitsContainer.xcdatamodeld */,
-				A3BF4AC927C2ACFD001233A5 /* Threads.swift */,
 			);
 			path = "Intermediate 1-15";
 			sourceTree = "<group>";
@@ -306,6 +313,11 @@
 		A36CAC0D27BBE483005C2877 /* Intermediate 16-29 */ = {
 			isa = PBXGroup;
 			children = (
+				A3BF4AC927C2ACFD001233A5 /* Threads.swift */,
+				A3BF4ACB27C3C3E6001233A5 /* WeakSelf.swift */,
+				A35AD8C227C3CAF800E88AB0 /* Typealias_.swift */,
+				A35AD8C427C3CCC000E88AB0 /* Escaping.swift */,
+				A35AD8C627C3EE0E00E88AB0 /* Codable_.swift */,
 			);
 			path = "Intermediate 16-29";
 			sourceTree = "<group>";
@@ -452,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3483E8427B3F3F300C69265 /* Colors.swift in Sources */,
+				A35AD8C527C3CCC000E88AB0 /* Escaping.swift in Sources */,
 				A3DBEE2F27B98922002A8422 /* List_.swift in Sources */,
 				A3D211DB27BBFE6D00AA01A9 /* Documentation.swift in Sources */,
 				A3DBEE1F27B7FEC2002A8422 /* TernaryOperator.swift in Sources */,
@@ -494,11 +507,13 @@
 				A3BF4AC227C29373001233A5 /* CoreData.swift in Sources */,
 				A38CF37627BFFFD3006EAF71 /* MultipleSheets.swift in Sources */,
 				A3BF4AA127C0FC77001233A5 /* SortFilterMap.swift in Sources */,
+				A3BF4ACC27C3C3E6001233A5 /* WeakSelf.swift in Sources */,
 				A3AFC6CE27BFD3A1000E61A9 /* ScrollViewReader_.swift in Sources */,
 				A38782D527BAC05600040F22 /* ContextMenu_.swift in Sources */,
 				A3483E8627B3FB2700C69265 /* Gradients.swift in Sources */,
 				A3DBEE1327B5AF20002A8422 /* Button_.swift in Sources */,
 				A3DBEE1527B67940002A8422 /* State_.swift in Sources */,
+				A35AD8C727C3EE0E00E88AB0 /* Codable_.swift in Sources */,
 				A3DBEE1D27B7F8BF002A8422 /* ConditionalStatement.swift in Sources */,
 				A3483E9C27B46CD900C69265 /* LazyGrids_GridsItems.swift in Sources */,
 				A3BF4AC527C2954D001233A5 /* FruitsContainer.xcdatamodeld in Sources */,
@@ -526,6 +541,7 @@
 				A35FED3E27C03C770099F9A3 /* MaskModifier.swift in Sources */,
 				A3483E9827B4653100C69265 /* ForEach_.swift in Sources */,
 				A362466927BE65C500948CC2 /* IntroView.swift in Sources */,
+				A35AD8C327C3CAF800E88AB0 /* Typealias_.swift in Sources */,
 				A3483E8227B3CF3E00C69265 /* Shapes.swift in Sources */,
 				A3DBEE3127B99744002A8422 /* Alert_.swift in Sources */,
 				A3D211DD27BCFE6F00AA01A9 /* OnAppearDisappear.swift in Sources */,
