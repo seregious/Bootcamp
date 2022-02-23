@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import Combine
 
 class DownloadCombineViewModel : ObservableObject {
     
     @Published var posts: [PostModel] = []
+    var cancellables = Set<AnyCancellable>()
     
     init() {
         getPosts()
@@ -21,17 +23,31 @@ class DownloadCombineViewModel : ObservableObject {
         //1. create publisher
         //2. subscribe publisher on background thread (done by default)
         //3. recieve on main thread
-        //4.try Map (check that data is good)
+        //4. try Map (check that data is good)
+        //5. decode (decode data into PostModel)
+        //6. sink (put item into our app)
+        //7. store
         
         URLSession.shared.dataTaskPublisher(for: url)
             .subscribe(on: DispatchQueue.global(qos: .background))
             .receive(on: DispatchQueue.main)
-            .tryMap { data, responce in
-                guard let responce = responce as? HTTPURLResponse,
-                      responce >= 200 && responce < 300 else {
-                          throw URLError(.)
-                      }
+            .tryMap(handleOutput)
+            .decode(type: [PostModel].self, decoder: JSONDecoder())
+            .replaceError(with: [])
+            .sink { [weak self] (returnedPosts) in
+                self?.posts = returnedPosts
             }
+            .store(in: &cancellables)
+
+    }
+    
+    func handleOutput(output: URLSession.DataTaskPublisher.Output) throws -> Data{
+        guard
+            let responce = output.response as? HTTPURLResponse,
+            responce.statusCode >= 200 && responce.statusCode < 300 else {
+                  throw URLError(.badServerResponse)
+              }
+        return output.data
     }
 }
 

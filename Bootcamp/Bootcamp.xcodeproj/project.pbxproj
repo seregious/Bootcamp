@@ -30,6 +30,8 @@
 		A35AD8C727C3EE0E00E88AB0 /* Codable_.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35AD8C627C3EE0E00E88AB0 /* Codable_.swift */; };
 		A35AD8C927C564C700E88AB0 /* DownloadEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35AD8C827C564C700E88AB0 /* DownloadEscaping.swift */; };
 		A35AD8CB27C5932100E88AB0 /* DownloadCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35AD8CA27C5932100E88AB0 /* DownloadCombine.swift */; };
+		A35AD8CD27C663E500E88AB0 /* TimerOnReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35AD8CC27C663E500E88AB0 /* TimerOnReceive.swift */; };
+		A35AD8CF27C6805900E88AB0 /* PublishersAndSubscribers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35AD8CE27C6805900E88AB0 /* PublishersAndSubscribers.swift */; };
 		A35FED3E27C03C770099F9A3 /* MaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35FED3D27C03C770099F9A3 /* MaskModifier.swift */; };
 		A35FED4027C041310099F9A3 /* SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35FED3F27C041310099F9A3 /* SoundEffects.swift */; };
 		A35FED4427C04A080099F9A3 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A35FED4227C04A080099F9A3 /* badum.mp3 */; };
@@ -124,6 +126,8 @@
 		A35AD8C627C3EE0E00E88AB0 /* Codable_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable_.swift; sourceTree = "<group>"; };
 		A35AD8C827C564C700E88AB0 /* DownloadEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadEscaping.swift; sourceTree = "<group>"; };
 		A35AD8CA27C5932100E88AB0 /* DownloadCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadCombine.swift; sourceTree = "<group>"; };
+		A35AD8CC27C663E500E88AB0 /* TimerOnReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerOnReceive.swift; sourceTree = "<group>"; };
+		A35AD8CE27C6805900E88AB0 /* PublishersAndSubscribers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishersAndSubscribers.swift; sourceTree = "<group>"; };
 		A35FED3D27C03C770099F9A3 /* MaskModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskModifier.swift; sourceTree = "<group>"; };
 		A35FED3F27C041310099F9A3 /* SoundEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffects.swift; sourceTree = "<group>"; };
 		A35FED4227C04A080099F9A3 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
@@ -324,6 +328,8 @@
 				A35AD8C627C3EE0E00E88AB0 /* Codable_.swift */,
 				A35AD8C827C564C700E88AB0 /* DownloadEscaping.swift */,
 				A35AD8CA27C5932100E88AB0 /* DownloadCombine.swift */,
+				A35AD8CC27C663E500E88AB0 /* TimerOnReceive.swift */,
+				A35AD8CE27C6805900E88AB0 /* PublishersAndSubscribers.swift */,
 			);
 			path = "Intermediate 16-29";
 			sourceTree = "<group>";
@@ -481,6 +487,7 @@
 				A3DBEE2327B90458002A8422 /* AnimationTiming.swift in Sources */,
 				A362467327BEBB9E00948CC2 /* TextSelection_.swift in Sources */,
 				A3DBEE2527B907F2002A8422 /* Transition_.swift in Sources */,
+				A35AD8CD27C663E500E88AB0 /* TimerOnReceive.swift in Sources */,
 				A3AFC6CA27BFC440000E61A9 /* DragGesture_.swift in Sources */,
 				A3483E9627B45F4800C69265 /* InitAndEnum.swift in Sources */,
 				A3D211E727BD662F00AA01A9 /* EnvironmentObject_.swift in Sources */,
@@ -520,6 +527,7 @@
 				A3DBEE1327B5AF20002A8422 /* Button_.swift in Sources */,
 				A3DBEE1527B67940002A8422 /* State_.swift in Sources */,
 				A35AD8C727C3EE0E00E88AB0 /* Codable_.swift in Sources */,
+				A35AD8CF27C6805900E88AB0 /* PublishersAndSubscribers.swift in Sources */,
 				A3DBEE1D27B7F8BF002A8422 /* ConditionalStatement.swift in Sources */,
 				A3483E9C27B46CD900C69265 /* LazyGrids_GridsItems.swift in Sources */,
 				A3BF4AC527C2954D001233A5 /* FruitsContainer.xcdatamodeld in Sources */,
