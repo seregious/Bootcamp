@@ -28,6 +28,7 @@ struct DatePicker_: View {
         DatePicker("Select a date", selection: $selectedDate)
             .datePickerStyle(.automatic)
             
+            
             DatePicker("Select a date", selection: $selectedDate, displayedComponents: .date)
             
             DatePicker("Select a date", selection: $selectedDate, in: startingDate...endingDate)
